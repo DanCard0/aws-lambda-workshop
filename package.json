@@ -1,0 +1,22 @@
+{
+  "name": "mi-primer-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "nyc --reporter=lcovonly --reporter= text mocha"
+  },
+  "author": "daniel.cardozo@pragma.com.co",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1",
+    "nyc": "^15.1.0",
+    "sinon": "^9.0.3",
+    "standard": "^14.3.4"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.731.0"
+  }
+}
